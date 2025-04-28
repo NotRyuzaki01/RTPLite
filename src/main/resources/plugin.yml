@@ -1,0 +1,8 @@
+name: RTP
+version: '1.0-SNAPSHOT'
+main: me.not_ryuzaki.rTP.RTP
+api-version: '1.21'
+commands:
+  rtp:
+    description: Randomly teleports player
+    usage: /rtp
