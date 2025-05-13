@@ -9,6 +9,7 @@ public final class RTP extends JavaPlugin {
     public void onEnable() {
         instance = this;
         getCommand("rtp").setExecutor(new RTPCommand());
+        new ConfirmClickListener(this);
     }
 
     public static RTP getInstance(){
